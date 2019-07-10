@@ -1,0 +1,1333 @@
+2019-07-10 13:53:38 log.py [line；62] INFO: 状态信息
+2019-07-10 13:53:38 log.py [line；62] INFO: 状态信息
+2019-07-10 13:53:38 log.py [line；62] INFO: 状态信息
+2019-07-10 13:54:10 log.py [line；62] INFO: 状态信息
+2019-07-10 13:54:10 log.py [line；62] INFO: 状态信息
+2019-07-10 13:54:10 log.py [line；62] INFO: 状态信息
+2019-07-10 13:54:10 log.py [line；62] INFO: 状态信息
+2019-07-10 13:54:10 log.py [line；63] WARNING: 警告信息
+2019-07-10 13:54:10 log.py [line；63] WARNING: 警告信息
+2019-07-10 13:54:10 log.py [line；63] WARNING: 警告信息
+2019-07-10 13:54:10 log.py [line；63] WARNING: 警告信息
+2019-07-10 13:54:10 log.py [line；64] ERROR: 错误信息
+2019-07-10 13:54:10 log.py [line；64] ERROR: 错误信息
+2019-07-10 13:54:10 log.py [line；64] ERROR: 错误信息
+2019-07-10 13:54:10 log.py [line；64] ERROR: 错误信息
+2019-07-10 13:54:10 log.py [line；65] CRITICAL: 严重错误信息
+2019-07-10 13:54:10 log.py [line；65] CRITICAL: 严重错误信息
+2019-07-10 13:54:10 log.py [line；65] CRITICAL: 严重错误信息
+2019-07-10 13:54:10 log.py [line；65] CRITICAL: 严重错误信息
+2019-07-10 14:04:57 log.py [line；58] INFO: 状态信息
+2019-07-10 14:04:57 log.py [line；59] WARNING: 警告信息
+2019-07-10 14:04:57 log.py [line；60] ERROR: 错误信息
+2019-07-10 14:04:57 log.py [line；61] CRITICAL: 严重错误信息
+2019-07-10 14:05:00 log.py [line；58] INFO: 状态信息
+2019-07-10 14:05:00 log.py [line；58] INFO: 状态信息
+2019-07-10 14:05:00 log.py [line；59] WARNING: 警告信息
+2019-07-10 14:05:00 log.py [line；59] WARNING: 警告信息
+2019-07-10 14:05:00 log.py [line；60] ERROR: 错误信息
+2019-07-10 14:05:00 log.py [line；60] ERROR: 错误信息
+2019-07-10 14:05:00 log.py [line；61] CRITICAL: 严重错误信息
+2019-07-10 14:05:00 log.py [line；61] CRITICAL: 严重错误信息
+2019-07-10 14:05:16 log.py [line；58] INFO: 状态信息
+2019-07-10 14:05:16 log.py [line；58] INFO: 状态信息
+2019-07-10 14:05:16 log.py [line:58] INFO: 状态信息
+2019-07-10 14:05:16 log.py [line；59] WARNING: 警告信息
+2019-07-10 14:05:16 log.py [line；59] WARNING: 警告信息
+2019-07-10 14:05:16 log.py [line:59] WARNING: 警告信息
+2019-07-10 14:05:16 log.py [line；60] ERROR: 错误信息
+2019-07-10 14:05:16 log.py [line；60] ERROR: 错误信息
+2019-07-10 14:05:16 log.py [line:60] ERROR: 错误信息
+2019-07-10 14:05:16 log.py [line；61] CRITICAL: 严重错误信息
+2019-07-10 14:05:16 log.py [line；61] CRITICAL: 严重错误信息
+2019-07-10 14:05:16 log.py [line:61] CRITICAL: 严重错误信息
+2019-07-10 14:08:16 log.py [line；60] INFO: 状态信息
+2019-07-10 14:08:16 log.py [line；60] INFO: 状态信息
+2019-07-10 14:08:16 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:16 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:16 log.py [line；61] WARNING: 警告信息
+2019-07-10 14:08:16 log.py [line；61] WARNING: 警告信息
+2019-07-10 14:08:16 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:16 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:16 log.py [line；62] ERROR: 错误信息
+2019-07-10 14:08:16 log.py [line；62] ERROR: 错误信息
+2019-07-10 14:08:16 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:16 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:16 log.py [line；63] CRITICAL: 严重错误信息
+2019-07-10 14:08:16 log.py [line；63] CRITICAL: 严重错误信息
+2019-07-10 14:08:16 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:16 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:18 log.py [line；60] INFO: 状态信息
+2019-07-10 14:08:18 log.py [line；60] INFO: 状态信息
+2019-07-10 14:08:18 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:18 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:18 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:18 log.py [line；61] WARNING: 警告信息
+2019-07-10 14:08:18 log.py [line；61] WARNING: 警告信息
+2019-07-10 14:08:18 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:18 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:18 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:18 log.py [line；62] ERROR: 错误信息
+2019-07-10 14:08:18 log.py [line；62] ERROR: 错误信息
+2019-07-10 14:08:18 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:18 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:18 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:18 log.py [line；63] CRITICAL: 严重错误信息
+2019-07-10 14:08:18 log.py [line；63] CRITICAL: 严重错误信息
+2019-07-10 14:08:18 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:18 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:18 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:20 log.py [line；60] INFO: 状态信息
+2019-07-10 14:08:20 log.py [line；60] INFO: 状态信息
+2019-07-10 14:08:20 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:20 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:20 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:20 log.py [line:60] INFO: 状态信息
+2019-07-10 14:08:20 log.py [line；61] WARNING: 警告信息
+2019-07-10 14:08:20 log.py [line；61] WARNING: 警告信息
+2019-07-10 14:08:20 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:20 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:20 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:20 log.py [line:61] WARNING: 警告信息
+2019-07-10 14:08:20 log.py [line；62] ERROR: 错误信息
+2019-07-10 14:08:20 log.py [line；62] ERROR: 错误信息
+2019-07-10 14:08:20 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:20 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:20 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:20 log.py [line:62] ERROR: 错误信息
+2019-07-10 14:08:20 log.py [line；63] CRITICAL: 严重错误信息
+2019-07-10 14:08:20 log.py [line；63] CRITICAL: 严重错误信息
+2019-07-10 14:08:20 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:20 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:20 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 14:08:20 log.py [line:63] CRITICAL: 严重错误信息
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line；37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line；37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009DDFF98>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line；37] ERROR: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1270, in _send_request
+    self.putheader(hdr, value)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1202, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line；37] ERROR: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1270, in _send_request
+    self.putheader(hdr, value)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1202, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1270, in _send_request
+    self.putheader(hdr, value)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1202, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1270, in _send_request
+    self.putheader(hdr, value)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1202, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1270, in _send_request
+    self.putheader(hdr, value)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1202, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+2019-07-10 15:02:06 <ipython-input-41-ee3bdbc4059e> [line:37] ERROR: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+Traceback (most recent call last):
+  File "<ipython-input-41-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1270, in _send_request
+    self.putheader(hdr, value)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1202, in putheader
+    values[i] = one_value.encode('latin-1')
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u201d' in position 95: ordinal not in range(256)
+2019-07-10 15:05:10 <ipython-input-55-ee3bdbc4059e> [line；37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:10 <ipython-input-55-ee3bdbc4059e> [line；37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:10 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:10 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:10 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:10 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E73908>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:20 <ipython-input-55-ee3bdbc4059e> [line；37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:20 <ipython-input-55-ee3bdbc4059e> [line；37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:20 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:20 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:20 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2019-07-10 15:05:20 <ipython-input-55-ee3bdbc4059e> [line:37] ERROR: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\learn\anaconda3\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\learn\anaconda3\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\learn\anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-55-ee3bdbc4059e>", line 15, in _check_http_proxies
+    response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\learn\anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Max retries exceeded with url: http://httpbin.org/get (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000009E6ADA0>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
