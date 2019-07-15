@@ -23,13 +23,24 @@ Created on Tue Jul  9 19:51:06 2019
 		5），实现把指定域名添加得到指定IP的disable_domain列表中
 '''
 
-import pymongo
+from pymongodb import MongoClient
 import random
 
 from seetings import MONGO_URL,DEFAULT_SCORE
+from utils.log import logger
 from domian import Proxy
 
-class :
+class MongoPool(object):
+
+	def __init__(self):
+		# 1.1 在init中，建立数据链接
+		self.client = MongoClient(MONGO_URL)
+		# 1.2 获取要操作的集合
+		self.proxies = self.client['proxies_pool']['proxies']
+
+	def __del__(self):
+		# 1.3 关闭数据库链接
+		self.client.close()
 	def insert_one(self,proxy):
 		'''2.1，实现插入功能'''
 		count = self.proxies.count({'_id':proxy.ip})
@@ -44,3 +55,28 @@ class :
 
 	def update_one(self,proxy):
 		'''2.2，实现修改功能；'''
+		self.proxies.update_one({"_id":proxy.ip},{"$set":proxy.__dict__})
+
+	def delete_one(self,proxy):
+		# 2.3，实现删除代理，根据代理中的IP删除代理
+		self.proxies.delete_one({'_id':proxy.ip})
+		logger.info("删除代理IP：{}".format(proxy))
+
+	def find_all(self):
+		# 2.4，查询所有代理IP的功能
+		cursor = self.proxies.find()
+		for item in cursor:
+			# 删除_id这个key
+			item.pop()
+			proxy = Proxy(**item)
+			yield proxy
+
+
+if __name__ == '__main__':
+	mongo = MongoPool()
+	proxy = Proxy('202.104.113.35',port='53281')
+	mongo.insert_one(proxy)
+	proxy = Proxy('202.104.113.35',port='8888')
+	mongo.update_one(proxy)
+	proxy = Proxy('202.104.113.35',port='8888')
+	mongo.delete_one(proxy)
