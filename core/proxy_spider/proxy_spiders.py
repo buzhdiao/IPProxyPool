@@ -13,8 +13,12 @@ class XiciSpider(BaseSpider):
     urls = ['http://www.xicidaili.com/nn/{}'.format(i) for i in range(1,11)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
-    group_xpath = '//*[@id="ip_list"]/tr[position()>1]'
+    # //*[@id="ip_list"]/tbody
+    group_xpath = '//*[@id="ip_list"]/tbody/tr[position()>1]'
     # 组内的XPath,用于提取ip,port,area
+    # //*[@id="ip_list"]/tbody/tr[2]/td[2]
+    # //*[@id="ip_list"]/tbody/tr[3]/td[2]
+    # //*[@id="ip_list"]/tbody/tr[3]/td[3]
     detail_xpath = {
         'ip':'td[2]/text()',
         'port':'td[3]/text()',
@@ -68,7 +72,7 @@ class KuaiSpider(BaseSpider):
 class ProxylistplusSpider(BaseSpider):
 
     # 准备URL列表
-    urls = ['http:/list.proxylistplus.com/Fresh-Http-Proxy-List-{}/ihna/{}'.format(i) for i in range(6)]
+    urls = ['http:/list.proxylistplus.com/Fresh-Http-Proxy-List-{}'.format(i) for i in range(1,4)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     group_xpath = '//*[@id="page"]/table[2]/tr[position()>2]'
@@ -85,7 +89,7 @@ class ProxylistplusSpider(BaseSpider):
         return super().get_page_from_url(url)
 
 if __name__=='__main__':
-    spider = ProxylistplusSpider()
+    spider = XiciSpider()
     for proxy in spider.get_proxies():
         print(proxy.ip)
     # print(Ip3366Spider.urls)
