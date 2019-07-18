@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f1b227-6833-498e-808a-11a42c950827" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/proxy_spider/base_spider.py" afterPath="$PROJECT_DIR$/core/proxy_spider/base_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py" afterPath="$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py" />
     </list>
     <ignored path="IPProxyPool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/IPProxyPool$proxy_spiders.coverage" NAME="proxy_spiders Coverage Results" MODIFIED="1563453037195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/proxy_spider" />
+    <SUITE FILE_PATH="coverage/IPProxyPool$proxy_spiders.coverage" NAME="proxy_spiders Coverage Results" MODIFIED="1563453417668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/proxy_spider" />
     <SUITE FILE_PATH="coverage/IPProxyPool$base_spider.coverage" NAME="base_spider Coverage Results" MODIFIED="1563368196892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/proxy_spider" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -65,8 +63,8 @@
       <file leaf-file-name="proxy_spiders.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.678344">
-              <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.49044585">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -464,7 +462,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -557,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.678344">
-          <caret line="70" column="83" selection-start-line="70" selection-start-column="83" selection-end-line="70" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.49044585">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
