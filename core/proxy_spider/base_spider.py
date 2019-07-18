@@ -81,11 +81,6 @@ if __name__=='__main__':
             'area':'/td[5]/text()',
         }
     }
-
-'''
-//*[@id="list"]/table/tbody
-//*[@id="list"]/table/tbody/tr[1]/td[1]
-'''
     spider = BaseSpider(**config)
     for proxy in spider.get_proxies():
         print(proxy)
