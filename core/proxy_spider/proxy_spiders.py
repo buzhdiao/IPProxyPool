@@ -1,6 +1,8 @@
 from core.proxy_spider.base_spider import  BaseSpider
 import time
 import random
+import re
+import js2py
 """
 实现西刺代理爬虫，http://www.xicidaili.com
 定义一个类，继承通用爬虫类（basespider)
@@ -93,3 +95,31 @@ if __name__=='__main__':
     for proxy in spider.get_proxies():
         print(proxy.ip)
     # print(Ip3366Spider.urls)
+
+
+    url = 'http://www.66ip.cn/html'
+    headers ={
+        ''
+    }
+    response = requests.get(url,headers = headers)
+    print(response.status_code)
+    print(response.content.decode('GBK'))
+
+    result = re.findadd('windows.onload=setTimeout\("(.+?)",200\);\s*(.+?)\s*<script>',text)
+    print(result)
+    # 希望执行js的时候，返回真正要执行的js
+    # 把'eval("qo=eval;qo(po)'替换为return po
+    func_str =  result[0][1]
+    func_str = func_str.replace('eval("qo=eval;qo(po);','return po')
+    print(func_str)
+    # 获取执行js的环境
+    context = js2py.EvalJS()
+    # 加载执行func_str
+    context.execute(func_str)
+    # 执行这个函数，生产需要的js
+    # code=gv(50)
+    context.execute('code={}'.format(result[0][0]))
+    # 打印生成的代码
+    print(context.code)
+
+    cookie_str =re.findall()
