@@ -1,5 +1,8 @@
 from settings import  PROXIES_SPIDERS
 import importlib
+from core.proxy_validate.httpbin_validator import check_proxy
+from core.db.mongo_pool import MongoPool
+from utils.log import logger
 
 """
 实现爬虫运行模块：
@@ -16,6 +19,10 @@ import importlib
 """
 
 class RunSpiders(object):
+
+    def __init__(self):
+    #     创建mongo_pool对象
+        self.mongo_pool = MongoPool
 
     def get_spider_from_settings(self):
          # 2.1根据配置文件信息，获取爬虫对象列表
@@ -39,11 +46,19 @@ class RunSpiders(object):
         # 2.2遍历爬虫对象列表，获取爬虫对象，遍历爬虫对象的get_proxies方法，获取代理IP
         for spider in spiders:
 #             遍历爬虫对象的get_proxies方法，获取代理IP
-            for proxy in spider.get_proxies():
-                print(proxy)
 
-     # 2.3检测代理Ip（代理Ip检测模块）
-                
+            # 2.5处理异常，防止一个爬虫出错了，影响其他爬虫
+            try:
+                for proxy in spider.get_proxies():
+                    # 2.3检测代理Ip（代理Ip检测模块）
+                    proxy = check_proxy(proxy)
+                    # 2.4如果可用，写入数据库，（数据库模块）
+                    # 如果speed不是-1，就说明可用
+                    if proxy.speed != -1:
+                        self.mongo_pool.insert_one(proxy)
+            except Exception as ex:
+                logger.exception(ex)
+
 if __name__=='__main__':
     rs = RunSpiders()
     rs.run()
