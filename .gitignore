@@ -8,3 +8,7 @@
 *.iml
 *.iml
 .idea/IPProxyPool.iml
+__pycache__/settings.cpython-37.pyc
+.idea/IPProxyPool.iml
+.idea/workspace.xml
+__pycache__/settings.cpython-37.pyc
