@@ -8,8 +8,9 @@ Created on Wed Jul 10 13:23:23 2019
 '''
 日志模块
 '''
-import sys
+
 import logging
+import sys
 sys.path.append("..")
 from settings import LOG_LEVEL,LOG_FMT,LOG_DATEFMT,LOG_FILENAME
 

@@ -22,9 +22,9 @@ MONGO_URL = '127.0.0.1:27017'
 
 PROXIES_SPIDERS = [
 #     爬虫的全类名，路径：模快.类名
-    # 'core.proxy_spider.proxy_spiders.IP66Spider',
+    'core.proxy_spider.proxy_spiders.IP66Spider',
     'core.proxy_spider.proxy_spiders.Ip3366Spider',
     'core.proxy_spider.proxy_spiders.KuaiSpider',
     'core.proxy_spider.proxy_spiders.ProxylistplusSpider',
-    # 'core.proxy_spider.proxy_spiders.XiciSpider'
+    'core.proxy_spider.proxy_spiders.XiciSpider'
 ]

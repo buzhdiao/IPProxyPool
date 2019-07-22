@@ -1,7 +1,12 @@
 import requests
-from utils.http import get_request_headers
+import time
+
 from lxml import etree
+import sys
+sys.path.append("..")
+#sys.path.append("..")
 from domain import Proxy
+from utils.http import get_request_headers
 
 """
 8.3 实现通用爬虫
@@ -40,7 +45,12 @@ class BaseSpider(object):
 
     def get_page_from_url(self,url):
         ''''根据URL，发送请求，获取页面数据'''
-        response = requests.get(url,params= get_request_headers())
+#        time.sleep(5)
+        headers = get_request_headers()
+#        print(headers)
+        response = requests.get(url,headers=headers)
+#        charset_ = response.encoding
+#        print(response.status_code)
         return response.content
 
     def get_first_from_list(self,lis):
@@ -72,15 +82,28 @@ class BaseSpider(object):
             yield from proxies
 
 if __name__=='__main__':
+#    config = {
+#        'urls':['http://www.ip3366.net/free/?stype=1&page={}'.format(i) for i in range(10)],
+#        'group_xpath':'//*[@id="list"]/table/tbody/tr',
+#        'detail_xpath':{
+#            'ip':'td[1]/text()',
+#            'port':'td[2]/text()',
+#            'area':'td[5]/text()',
+#        }
+#    }
+    
     config = {
-        'urls':['http://www.ip3366.net/free/?stype=1&page={}'.format(i) for i in range(10)],
-        'group_xpath':'//*[@id="list"]/table/tbody/tr',
+        'urls':['http://www.xicidaili.com/nn/{}/'.format(i) for i in range(1, 11)],
+        'group_xpath':'//*[@id="ip_list"]/tr[position()>1]',
         'detail_xpath':{
-            'ip':'/td[1]/text()',
-            'port':'/td[2]/text()',
-            'area':'/td[5]/text()',
+            'ip':'td[2]/text()',
+            'port':'td[3]/text()',
+            'area':'td[4]/text()',
         }
-    }
+        }
+    
     spider = BaseSpider(**config)
     for proxy in spider.get_proxies():
         print(proxy)
+        
+

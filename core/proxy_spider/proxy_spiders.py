@@ -1,4 +1,5 @@
 from core.proxy_spider.base_spider import BaseSpider
+#from base_spider import BaseSpider
 import time
 import random
 import re
@@ -12,10 +13,10 @@ from utils.http import get_request_headers
 提供urls,group-xpath和detail_xpath
 """
 
-
+# 西刺代理容易503
 class XiciSpider(BaseSpider):
     # 准备URL列表
-    urls = ['http://www.xicidaili.com/nn/{}'.format(i) for i in range(1, 11)]
+    urls = ['http://www.xicidaili.com/nn/{}/'.format(i) for i in range(1, 11)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     # //*[@id="ip_list"]/tbody
@@ -40,7 +41,7 @@ class XiciSpider(BaseSpider):
 
 class Ip3366Spider(BaseSpider):
     # 准备URL列表
-    urls = ['http://www.ip3366.net/free/style={}&page={}'.format(i, j) for i in range(1, 4, 2) for j in range(1, 8)]
+    urls = ['http://www.ip3366.net/free/?stype=1&page={}'.format(i) for i in range(1,8)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     group_xpath = '//*[@id="list"]/table/tbody/tr'
@@ -48,7 +49,7 @@ class Ip3366Spider(BaseSpider):
     detail_xpath = {
         'ip': 'td[1]/text()',
         'port': 'td[2]/text()',
-        'area': 'td[4]/text()'
+        'area': 'td[5]/text()'
     }
 
 
@@ -61,7 +62,7 @@ class Ip3366Spider(BaseSpider):
 
 class KuaiSpider(BaseSpider):
     # 准备URL列表
-    urls = ['http://www.kuaidaili.com/free/ihna/{}'.format(i) for i in range(1, 6, 2)]
+    urls = ['http://www.kuaidaili.com/free/inha/{}/'.format(i) for i in range(1, 30)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     group_xpath = '//*[@id="list"]/table/tbody/tr'
@@ -69,7 +70,7 @@ class KuaiSpider(BaseSpider):
     detail_xpath = {
         'ip': 'td[1]/text()',
         'port': 'td[2]/text()',
-        'area': 'td[4]/text()'
+        'area': 'td[5]/text()'
     }
 
 
@@ -79,13 +80,13 @@ class KuaiSpider(BaseSpider):
 提供urls,group-xpath和detail_xpath
 """
 
-
+# 国外的,要使用ipv6爬虫
 class ProxylistplusSpider(BaseSpider):
     # 准备URL列表
-    urls = ['http:/list.proxylistplus.com/Fresh-Http-Proxy-List-{}'.format(i) for i in range(1, 4)]
+    urls = ['https://list.proxylistplus.com/Fresh-Http-Proxy-List-{}'.format(i) for i in range(1, 4)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
-    group_xpath = '//*[@id="page"]/table[2]/tr[position()>2]'
+    group_xpath = '//*[@id="page"]/table[2]/tbody/tr[position()>2]'
     # 组内的XPath,用于提取ip,port,area
     detail_xpath = {
         'ip': 'td[2]/text()',
@@ -151,10 +152,12 @@ class IP66Spider(BaseSpider):
 
 
 if __name__ == '__main__':
-    # spider = XiciSpider()
-    spider = IP66Spider()
+#    spider = XiciSpider()
+    spider = KuaiSpider()
+#    spider = Ip3366Spider()
+#    spider = ProxylistplusSpider()
     for proxy in spider.get_proxies():
-        print(proxy.ip)
+        print(proxy.ip,proxy.port)
     # print(Ip3366Spider.urls)
 
 

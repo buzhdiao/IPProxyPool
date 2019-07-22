@@ -32,10 +32,10 @@ def check_proxy(proxy):
     用于检查指定的proxy的响应速度，匿名程度，支持的协议类型
     '''
 #    准备字典
-    proxies = {'http':'http://{}:{}'.format(proxy.ip,proxy.port),
-               'https':'https://{}:{}'.format(proxy.ip,proxy.port)}
-    http,http_nick_type,http_speed = _check_http_proxies(proxies)
-    https,https_nick_type,https_speed = _check_http_proxies(proxies)
+    proxies = {'http':'http://{}:{}/'.format(proxy.ip,proxy.port),
+               'https':'https://{}:{}/'.format(proxy.ip,proxy.port)}
+    http,http_nick_type,http_speed = _check_http_proxies(proxies,is_http=True)
+    https,https_nick_type,https_speed = _check_http_proxies(proxies,is_http=False)
     if http and https:
         proxy.protocol = 2
         proxy.nick_type = http_nick_type
@@ -61,13 +61,17 @@ def _check_http_proxies(proxies,is_http=True):
     speed = -1
     if is_http:
         test_url = 'http://httpbin.org/get'
+        proxy_url = {'http':proxies['http']}
     else:
         test_url = 'https://httpbin.org/get'
+        proxy_url = {'https':proxies['https']}
 #    获取开始时间
     start = time.time()
 #    发送请求，获取相应数据
     try:
-        response = requests.get(test_url,headers=get_request_headers(),proxies = proxies,timeout=TEST_TIMEOUT)
+#        TEST_TIMEOUT
+        
+        response = requests.get(test_url,headers=get_request_headers(),timeout=TEST_TIMEOUT,proxies = proxy_url)
     
         if response.ok:
     #        计算响应速度
@@ -88,11 +92,12 @@ def _check_http_proxies(proxies,is_http=True):
                 nick_type = 0 #高匿代理IP
             return True,nick_type,speed
         return False,nick_type,speed # -1代表
-    except Exception as ex:
-        logger.exception(ex)
+    except :
+#        logger.exception(ex)
         return False,nick_type,speed
 
 
 if __name__=='__main__':
-    proxy = Proxy('202.104.113.35',port = '53281')
+#    125.110.64.117 9000
+    proxy = Proxy('121.13.252.62',port = '41564')
     print(check_proxy(proxy))
