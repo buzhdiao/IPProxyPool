@@ -28,3 +28,6 @@ PROXIES_SPIDERS = [
     'core.proxy_spider.proxy_spiders.ProxylistplusSpider',
     # 'core.proxy_spider.proxy_spiders.XiciSpider'
 ]
+
+# 修改配置文件，增加爬虫运行时间间隔的配置，单位为小时
+RUN_SPIDERS_INTERVAL = 2

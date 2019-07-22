@@ -9,6 +9,9 @@ import importlib
 from core.proxy_validate.httpbin_validator import check_proxy
 from core.db.mongo_pool import MongoPool
 from utils.log import logger
+import schedule
+import time
+from settings import RUN_SPIDERS_INTERVAL
 
 
 """
@@ -81,6 +84,17 @@ class RunSpiders(object):
             except Exception as ex:
                 logger.exception(ex)
 
+    @classmethod
+    def start(cls):
+    # 4.使用schedule模块，实现每个一定的时间，执行一次爬虫任务
+    # 4.1 定义一个start的类方法
+    # 4.2 创建当前类的对象，调用run方法
+        rs = RunSpiders()
+        rs.run()
+    # 4.3 使用schedule模块，每个一定的时间，执行当前对象的run方法。
+        schedule.every(RUN_SPIDERS_INTERVAL).hours.do(rs.run)
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
 if __name__=='__main__':
-    rs = RunSpiders()
-    rs.run()
+    RunSpiders.start()
