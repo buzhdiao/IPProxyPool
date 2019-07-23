@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f1b227-6833-498e-808a-11a42c950827" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/proxy_spider/log.log" afterPath="$PROJECT_DIR$/core/proxy_spider/log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/proxy_spider/run_spiders.py" afterPath="$PROJECT_DIR$/core/proxy_spider/run_spiders.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/db/mongo_pool.py" afterPath="$PROJECT_DIR$/core/db/mongo_pool.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <ignored path="IPProxyPool.iws" />
@@ -24,6 +23,7 @@
     <SUITE FILE_PATH="coverage/IPProxyPool$http.coverage" NAME="http Coverage Results" MODIFIED="1563759727690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/IPProxyPool$base_spider.coverage" NAME="base_spider Coverage Results" MODIFIED="1563761807465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/proxy_spider" />
     <SUITE FILE_PATH="coverage/IPProxyPool$run_spiders.coverage" NAME="run_spiders Coverage Results" MODIFIED="1563796200401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/proxy_spider" />
+    <SUITE FILE_PATH="coverage/IPProxyPool$proxy_test.coverage" NAME="proxy_test Coverage Results" MODIFIED="1563846328580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -73,15 +73,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-              <folding>
-                <marker date="1563780073929" expanded="true" signature="177:528" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-                <marker date="1563780073929" expanded="true" signature="554:2405" placeholder="..." />
-                <marker date="1563780073929" expanded="true" signature="892:1077" placeholder="..." />
-                <marker date="1563780073929" expanded="true" signature="1115:1395" placeholder="..." />
-                <marker date="1563780073929" expanded="true" signature="1435:1513" placeholder="..." />
-                <marker date="1563780073929" expanded="true" signature="1556:2056" placeholder="..." />
-                <marker date="1563780073929" expanded="true" signature="2084:2405" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,12 +108,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_spiders.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_spiders.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/proxy_spider/run_spiders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64579606">
-              <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/proxy_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.6799363">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongo_pool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/db/mongo_pool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+              <folding>
+                <element signature="e#555#586#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,11 +161,12 @@
         <option value="$PROJECT_DIR$/utils/log.log" />
         <option value="$PROJECT_DIR$/utils/log.py" />
         <option value="$PROJECT_DIR$/core/proxy_spider/base_spider.py" />
-        <option value="$PROJECT_DIR$/core/db/mongo_pool.py" />
         <option value="$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py" />
         <option value="$PROJECT_DIR$/core/proxy_spider/log.log" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/core/proxy_spider/run_spiders.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/core/db/mongo_pool.py" />
+        <option value="$PROJECT_DIR$/core/proxy_test.py" />
       </list>
     </option>
   </component>
@@ -245,32 +260,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proxy_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IPProxyPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IPProxyPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="proxy_validate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_spiders">
+  <component name="RunManager" selected="Python.proxy_test">
     <configuration default="false" name="mongo_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,24 +302,6 @@
       <module name="IPProxyPool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/db/mongo_pool.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="log" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IPProxyPool" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -377,6 +356,24 @@
       <module name="IPProxyPool" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/proxy_spider/run_spiders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="proxy_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IPProxyPool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/proxy_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -576,18 +573,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.mongo_pool" />
-      <item index="1" class="java.lang.String" itemvalue="Python.log" />
-      <item index="2" class="java.lang.String" itemvalue="Python.base_spider" />
-      <item index="3" class="java.lang.String" itemvalue="Python.proxy_spiders" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run_spiders" />
+      <item index="1" class="java.lang.String" itemvalue="Python.base_spider" />
+      <item index="2" class="java.lang.String" itemvalue="Python.proxy_spiders" />
+      <item index="3" class="java.lang.String" itemvalue="Python.run_spiders" />
+      <item index="4" class="java.lang.String" itemvalue="Python.proxy_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.run_spiders" />
-        <item index="1" class="java.lang.String" itemvalue="Python.proxy_spiders" />
-        <item index="2" class="java.lang.String" itemvalue="Python.base_spider" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mongo_pool" />
-        <item index="4" class="java.lang.String" itemvalue="Python.log" />
+        <item index="0" class="java.lang.String" itemvalue="Python.proxy_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run_spiders" />
+        <item index="2" class="java.lang.String" itemvalue="Python.proxy_spiders" />
+        <item index="3" class="java.lang.String" itemvalue="Python.base_spider" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mongo_pool" />
       </list>
     </recent_temporary>
   </component>
@@ -627,7 +624,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -669,6 +666,54 @@
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/proxy_spider/base_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/proxy_spider/proxy_spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/proxy_spider/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/proxy_spider/run_spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
@@ -678,15 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <marker date="1563780073929" expanded="true" signature="177:528" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1563780073929" expanded="true" signature="554:2405" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="892:1077" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1115:1395" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1435:1513" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1556:2056" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="2084:2405" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,15 +772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <marker date="1563780073929" expanded="true" signature="177:528" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1563780073929" expanded="true" signature="554:2405" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="892:1077" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1115:1395" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1435:1513" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1556:2056" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="2084:2405" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,15 +805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <marker date="1563780073929" expanded="true" signature="177:528" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1563780073929" expanded="true" signature="554:2405" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="892:1077" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1115:1395" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1435:1513" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1556:2056" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="2084:2405" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,15 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1563780073929" expanded="true" signature="177:528" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1563780073929" expanded="true" signature="554:2405" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="892:1077" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1115:1395" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1435:1513" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1556:2056" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="2084:2405" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding>
-            <element signature="e#107#121#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,29 +884,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/db/mongo_pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47292992">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#555#586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/proxy_spider/base_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-          <folding>
-            <marker date="1563780073929" expanded="true" signature="177:528" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
-            <marker date="1563780073929" expanded="true" signature="554:2405" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="892:1077" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1115:1395" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1435:1513" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="1556:2056" placeholder="..." />
-            <marker date="1563780073929" expanded="true" signature="2084:2405" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -924,18 +916,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/core/proxy_spider/run_spiders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/proxy_spider/run_spiders.py">
+    <entry file="file://$PROJECT_DIR$/core/db/mongo_pool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64579606">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding>
+            <element signature="e#555#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/learn/anaconda3/Lib/site-packages/gevent/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33280253">
+          <caret line="658" column="0" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/proxy_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6799363">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -71,7 +71,7 @@ class MongoPool(object):
         cursor = self.proxies.find()
         for item in cursor:
             # 删除_id这个key
-            item.pop()
+            item.pop('_id')
             proxy = Proxy(**item)
             yield proxy
 
