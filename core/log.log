@@ -1,0 +1,224 @@
+2019-07-24 16:14:45 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:14:50 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mmongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+TypeError: random_porxy() got an unexpected keyword argument 'count'
+2019-07-24 16:14:50 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:14:50] "[1m[35mGET /random HTTP/1.1[0m" 500 -
+2019-07-24 16:15:25 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mmongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+TypeError: random_porxy() got an unexpected keyword argument 'count'
+2019-07-24 16:15:25 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:15:25] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:16:04 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mmongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+TypeError: random_porxy() got an unexpected keyword argument 'count'
+2019-07-24 16:16:04 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:16:04] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:16:04 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mmongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+TypeError: random_porxy() got an unexpected keyword argument 'count'
+2019-07-24 16:16:04 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:16:04] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:16:05 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mmongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+TypeError: random_porxy() got an unexpected keyword argument 'count'
+2019-07-24 16:16:05 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:16:05] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:18:01 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:18:05 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+  File "F:\zkl_repository\IPProxyPool\core\db\mongo_pool.py", line 110, in random_porxy
+    proxy_list = self.get_proxies(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
+AttributeError: 'MongoPool' object has no attribute 'get_proxies'
+2019-07-24 16:18:05 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:18:05] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:19:33 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:19:35 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+  File "F:\zkl_repository\IPProxyPool\core\db\mongo_pool.py", line 111, in random_porxy
+    proxy_list = self.find_all(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
+TypeError: find_all() got an unexpected keyword argument 'protocol'
+2019-07-24 16:19:35 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:19:35] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:19:48 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:19:51 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+  File "F:\zkl_repository\IPProxyPool\core\db\mongo_pool.py", line 111, in random_porxy
+    proxy_list = self.find(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
+TypeError: find() got an unexpected keyword argument 'protocol'
+2019-07-24 16:19:51 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:19:51] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:20:59 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:21:03 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+  File "F:\zkl_repository\IPProxyPool\core\db\mongo_pool.py", line 107, in random_porxy
+    proxy_list = self.get_proxies(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
+AttributeError: 'MongoPool' object has no attribute 'get_proxies'
+2019-07-24 16:21:03 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:21:03] "[1m[35mGET /random?protocol=http&domain=jd.com HTTP/1.1[0m" 500 -
+2019-07-24 16:21:25 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+  File "F:\zkl_repository\IPProxyPool\core\db\mongo_pool.py", line 107, in random_porxy
+    proxy_list = self.get_proxies(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
+AttributeError: 'MongoPool' object has no attribute 'get_proxies'
+2019-07-24 16:21:25 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:21:25] "[1m[35mGET /random?protocol=http HTTP/1.1[0m" 500 -
+2019-07-24 16:30:34 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:30:37 app.py [line:1761] ERROR: Exception on /random [GET]
+Traceback (most recent call last):
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\learn\anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\learn\anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:/zkl_repository/IPProxyPool/core/proxy_api.py", line 50, in random
+    proxy = self.mongo_pool.random_porxy(protocol,domain,count=PROXIES_MAX_COUNT)
+  File "F:\zkl_repository\IPProxyPool\core\db\mongo_pool.py", line 111, in random_porxy
+    return random.choice(proxy_list)
+  File "D:\learn\anaconda3\lib\random.py", line 261, in choice
+    raise IndexError('Cannot choose from an empty sequence') from None
+IndexError: Cannot choose from an empty sequence
+2019-07-24 16:30:37 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:30:37] "[1m[35mGET /random?protocol=http HTTP/1.1[0m" 500 -
+2019-07-24 16:34:09 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:40:28 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:40:28] "[33mGET /disable_domain HTTP/1.1[0m" 404 -
+2019-07-24 16:40:36 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:40:38 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:40:38] "[33mGET /disable_domain HTTP/1.1[0m" 404 -
+2019-07-24 16:41:00 _internal.py [line:88] INFO:  * Running on http://0.0.0.0:16888/ (Press CTRL+C to quit)
+2019-07-24 16:41:02 _internal.py [line:88] INFO: 127.0.0.1 - - [24/Jul/2019 16:41:02] "[37mGET /disable_domain HTTP/1.1[0m" 200 -

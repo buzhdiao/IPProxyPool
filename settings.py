@@ -37,3 +37,6 @@ TEST_PROXIES_ASYNC_COUNT = 10
 
 # 配置代理IP的检测时间间隔,单位小时
 TEST_PROXIES_INTERVAL = 2
+
+# 配置获取的代理IP最大数量，这个越小，可用性就越高，但是随即性越差
+PROXIES_MAX_COUNT = 50

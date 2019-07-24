@@ -27,9 +27,6 @@ from pymongo import MongoClient
 import random
 import pymongo 
 
-#import sys
-#sys.path.append("..")
-#sys.path.append("..")
 from settings import MONGO_URL,MAX_SCORE
 from utils.log import logger
 from domain import Proxy
@@ -87,6 +84,8 @@ class MongoPool(object):
             proxy_list.append(proxy)
 
         return proxy_list
+
+    def get_proxies(self,protocol=None,domain=None,count=0,nick_type=0):
         # 2），实现根据协议和要访问的网站的域名，获取代理IP请求；
         conditions = {'nick_type':nick_type}
 
@@ -98,22 +97,23 @@ class MongoPool(object):
         else:
             conditions['protocol'] = {'$in':[1,2]}
 
-        if domian:
-            conditions['disable_dimains'] = {'$nin':[domian]}
+        if domain:
+            conditions['disable_dimains'] = {'$nin':[domain]}
 
         return self.find(conditions,count=count)
         # 3），实现根据协议类型和要访问的域名，获取代理IP列表
         # 4），实现根据协议类型和要访问的完整域名，随机获取一个代理IP
         # 5），实现把指定域名添加得到指定IP的disable_domain列表中
 
-    def random_porxy(self,protocol=None,domian=None,nick_type=0):
-        proxy_list = self.get_proxies(protocol=protocol,domian = domian,count = count,nick_type=nick_type)
+    def random_porxy(self,protocol=None,domain=None,count = None,nick_type=0):
+        proxy_list = self.get_proxies(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
+        # proxy_list = self.find(protocol=protocol,domain = domain,count = count,nick_type=nick_type)
         return random.choice(proxy_list)
 
-    def disable_domian(self,ip,domian):
+    def disable_domain(self,ip,domain):
         # 把指定的域名添加到指定ip的disable_domain列表中
-        if self.proxies.count({'_id':ip,'disable_domains':domian})==0:
-            self.proxies.update_one({'_id':ip},{'$push':{'disable_domains':domian}})
+        if self.proxies.count({'_id':ip,'disable_domains':domain})==0:
+            self.proxies.update_one({'_id':ip},{'$push':{'disable_domains':domain}})
 
 
 if __name__ == '__main__':
