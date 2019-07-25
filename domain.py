@@ -7,7 +7,6 @@ Created on Tue Jul  9 19:35:28 2019
 
 from settings import MAX_SCORE
 
-
 class Proxy(object):
     
     def __init__(self,ip,port,protocol=-1,nick_type=-1,speed=-1,area=None,score=MAX_SCORE,
@@ -18,7 +17,7 @@ class Proxy(object):
         self.port = port
 #        protocol，代理的协议，0代表http,1代表https,2代表http和https都有
         self.protocol = protocol
-#       nick_type ：代理ip的匿名程度，高匿：0，匿名;1,透明;2
+#       nick_type ：代理ip的匿名程度，高匿：0，匿名:1,透明:2
         self.nick_type = nick_type
 #        speed,代理ip的相应速度，单位s
         self.speed = speed

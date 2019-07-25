@@ -1,4 +1,0 @@
-2019-07-22 09:42:54 log.py [line:59] INFO: 状态信息
-2019-07-22 09:42:54 log.py [line:60] WARNING: 警告信息
-2019-07-22 09:42:54 log.py [line:61] ERROR: 错误信息
-2019-07-22 09:42:54 log.py [line:62] CRITICAL: 严重错误信息

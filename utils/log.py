@@ -54,6 +54,7 @@ class Logger(object):
 # 初始化并配置一个logger对象，达到单例的
 # 使用时，直接导入logger对象就可以使用
 logger = Logger().logger
+
 if __name__=='__main__':
     logger.debug('调试信息')
     logger.info('状态信息')

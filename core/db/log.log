@@ -1,8 +1,0 @@
-2019-07-22 09:37:52 mongo_pool.py [line:56] INFO: 插入新的代理：{'ip': '202.104.113.35', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '202.104.113.35'}
-2019-07-22 09:37:52 mongo_pool.py [line:67] INFO: 删除代理IP：{'ip': '202.104.113.35', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
-2019-07-22 09:39:58 mongo_pool.py [line:56] INFO: 插入新的代理：{'ip': '202.104.113.35', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '202.104.113.35'}
-2019-07-22 09:39:58 mongo_pool.py [line:56] INFO: 插入新的代理：{'ip': '127.0.0.1', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '127.0.0.1'}
-2019-07-22 09:39:58 mongo_pool.py [line:67] INFO: 删除代理IP：{'ip': '202.104.113.35', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
-2019-07-22 10:16:38 mongo_pool.py [line:56] INFO: 插入新的代理：{'ip': '202.104.113.35', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '202.104.113.35'}
-2019-07-22 10:16:38 mongo_pool.py [line:58] INFO: 已经存在的代理：{'ip': '127.0.0.1', 'port': '53281', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
-2019-07-22 10:16:38 mongo_pool.py [line:67] INFO: 删除代理IP：{'ip': '202.104.113.35', 'port': '8888', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}

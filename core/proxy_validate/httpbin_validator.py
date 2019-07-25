@@ -19,7 +19,7 @@ from domain import Proxy
 #检查代理IP速度和匿名程度
 #1，代理Io速：就是从发送请求到获取相应时间间隔
 #2，匿名程度检查
-#    1，对htyp://httpbin.org/get或者https://httpbin.org/get发送请求
+#    1，对http://httpbin.org/get或者https://httpbin.org/get发送请求
 #    2，对相应origin中有，分隔的两个Ip就是透明代理IP
 #    3，如果响应的headers中包含proxy-connection，说明是匿名代理IP
 #    4，否则就是高匿代理Ip
