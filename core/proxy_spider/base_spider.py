@@ -1,7 +1,7 @@
 import requests
 import time
 from lxml import etree
-
+from utils.log import logger
 
 from domain import Proxy
 from utils.http import get_request_headers
@@ -47,8 +47,10 @@ class BaseSpider(object):
         headers = get_request_headers()
 #        print(headers)
         response = requests.get(url,headers=headers)
+        if response.status_code !=200:
 #        charset_ = response.encoding
-#        print(response.status_code)
+            print(response.status_code)
+            logger.info("爬取{}网页时出现{}错误".format(url,response.status_code))
         return response.content
 
     def get_first_from_list(self,lis):
@@ -72,21 +74,22 @@ class BaseSpider(object):
         # 4. 对外提供一个获取代理Ip的方法
         # 4.1 遍历URL列表，获取URL
         for url in self.urls:
-            # 4.2 根据发送请求，获取页面数据
-            page = self.get_page_from_url(url)
-            # 4.3 解析页面，提取数据，封装为Proxy对象
-            proxies = self.get_proxies_from_page(page)
-            # 4.4 返回Proxy对象列表
-            yield from proxies
+            try:
+                # 4.2 根据发送请求，获取页面数据
+                page = self.get_page_from_url(url)
+                # 4.3 解析页面，提取数据，封装为Proxy对象
+                proxies = self.get_proxies_from_page(page)
+                # 4.4 返回Proxy对象列表
+                yield from proxies
+            except :
+                logger.info("{}爬取出现错误。".format(url))
 
 if __name__=='__main__':
 
-    # 国内高匿代理，http://www.ip3366.net/free/?stype=1
-    # 国内普通代理，http://www.ip3366.net/free/?stype=2
-    # 国外高匿代理，http://www.ip3366.net/free/?stype=3
-    # 国外普通代理，http://www.ip3366.net/free/?stype=4
+    # 西刺代理的测试
+    '''
     config = {
-       'urls':['http://www.ip3366.net/free/?stype=3&page={}'.format(i) for i in range(10)],
+       'urls': ['http://www.xicidaili.com/{}/{}/'.format(types,i) for types in ['nn','nt','wn','wt'] for i in range(1, 11)],
        'group_xpath':'//*[@id="list"]/table/tbody/tr',
        'detail_xpath':{
            'ip':'td[1]/text()',
@@ -94,22 +97,42 @@ if __name__=='__main__':
            'area':'td[5]/text()',
        }
     }
-    
-    # 国内高匿代理，https://www.xicidaili.com/nn/
-    # 国内普通代理，https://www.xicidaili.com/nt/
-    # 国内https代理，https://www.xicidaili.com/wn/
-    # 国内http代理，https://www.xicidaili.com/wt/
-    # config = {
-    #     'urls':['http://www.xicidaili.com/nn/{}/'.format(i) for i in range(1, 11)],
-    #     'group_xpath':'//*[@id="ip_list"]/tr[position()>1]',
-    #     'detail_xpath':{
-    #         'ip':'td[2]/text()',
-    #         'port':'td[3]/text()',
-    #         'area':'td[4]/a/text()',
-    #     }
-    #     }
     spider = BaseSpider(**config)
     for proxy in spider.get_proxies():
         print(proxy)
-        
+    '''
+
+     # ip3366代理
+    '''
+    config = {
+        'urls':['http://www.ip3366.net/free/?stype={}&page={}'.format(j,i) for j in range(1,5) for i in range(1,8)],
+        'group_xpath':'//*[@id="list"]/table/tbody/tr',
+        'detail_xpath':{
+            'ip':'td[1]/text()',
+            'port':'td[2]/text()',
+            'area':'td[5]/a/text()',
+        }
+        }
+    spider = BaseSpider(**config)
+    for proxy in spider.get_proxies():
+        print(proxy)
+    '''
+
+#     快代理
+    config = {
+        'urls':['http://www.kuaidaili.com/free/{}/{}/'.format(types,i) for types in ['inha','intr'] for i in range(1, 30)],
+        'group_xpath':'//*[@id="list"]/table/tbody/tr',
+        'detail_xpath':{
+            'ip':'td[1]/text()',
+            'port':'td[2]/text()',
+            'area':'td[5]/text()',
+        }
+        }
+    count =0
+    spider = BaseSpider(**config)
+    for proxy in spider.get_proxies():
+        count = count +1
+        print(proxy)
+    print(count)
+
 

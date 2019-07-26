@@ -15,8 +15,11 @@ from utils.http import get_request_headers
 
 # 西刺代理容易503
 class XiciSpider(BaseSpider):
+    '''
+    nn国内高匿代理，nt国内普通代理，wn国内https代理，wt国内http代理
+    '''
     # 准备URL列表
-    urls = ['http://www.xicidaili.com/nn/{}/'.format(i) for i in range(1, 11)]
+    urls = ['http://www.xicidaili.com/{}/{}/'.format(types,i) for types in ['nn','nt','wn','wt'] for i in range(1, 11)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     # //*[@id="ip_list"]/tbody
@@ -62,7 +65,7 @@ class Ip3366Spider(BaseSpider):
 
 class KuaiSpider(BaseSpider):
     # 准备URL列表
-    urls = ['http://www.kuaidaili.com/free/inha/{}/'.format(i) for i in range(1, 30)]
+    urls = ['http://www.kuaidaili.com/free/{}/{}/'.format(types,i) for types in ['inha','intr'] for i in range(1, 30)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     group_xpath = '//*[@id="list"]/table/tbody/tr'
@@ -152,7 +155,7 @@ class IP66Spider(BaseSpider):
 
 
 if __name__ == '__main__':
-#    spider = XiciSpider()
+    # spider = XiciSpider()
     spider = KuaiSpider()
 #    spider = Ip3366Spider()
 #    spider = ProxylistplusSpider()

@@ -72,7 +72,7 @@ def _check_http_proxies(proxies,is_http=True):
 #        TEST_TIMEOUT
         
         response = requests.get(test_url,headers=get_request_headers(),timeout=TEST_TIMEOUT,proxies = proxy_url)
-    
+        print(response.ok)
         if response.ok:
     #        计算响应速度
             speed = round(time.time()-start,2)
@@ -81,11 +81,11 @@ def _check_http_proxies(proxies,is_http=True):
             dic = json.loads(response.text)
             origin = dic['origin']
     #        1，对htyp://httpbin.org/get或者https://httpbin.org/get发送请求
-            proxy_connection = dic['headers'].get('Proxy-Connection',None)
+            proxy_connection = dic['headers']
     #        2，对相应origin中有，分隔的两个Ip就是透明代理IP
             if ',' in origin:
                 nick_type = 2
-            elif proxy_connection:
+            elif 'Proxy-Connection' in proxy_connection.keys():
             #    3，如果响应的headers中包含proxy-connection，说明是匿名代理IP
                 nick_type = 1
             else:
@@ -98,6 +98,6 @@ def _check_http_proxies(proxies,is_http=True):
 
 
 if __name__=='__main__':
-#    125.110.64.117 9000
-    proxy = Proxy('121.13.252.62',port = '41564')
+#   117.87.176.148:9000
+    proxy = Proxy('112.111.118.169',port = '9000',area='浙江省杭州市  移动')
     print(check_proxy(proxy))

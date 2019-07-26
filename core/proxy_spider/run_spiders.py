@@ -75,10 +75,12 @@ class RunSpiders(object):
             # 2.5处理异常，防止一个爬虫出错了，影响其他爬虫
             try:
                 for proxy in spider.get_proxies():
+                    # self.mongo_pool.insert_one(proxy = proxy)
                     # 2.3检测代理Ip（代理Ip检测模块）
                     proxy = check_proxy(proxy)
                     # 2.4如果可用，写入数据库，（数据库模块）
                     # 如果speed不是-1，就说明可用
+                    logger.info('{}:{}的速度是{}'.format(proxy.ip,proxy.port,proxy.speed))
                     if proxy.speed != -1:
                         self.mongo_pool.insert_one(proxy = proxy)
             except Exception as ex:
