@@ -24,7 +24,8 @@ PROXIES_SPIDERS = [
 #     爬虫的全类名，路径：模快.类名
     # 'core.proxy_spider.proxy_spiders.IP66Spider',
     # 'core.proxy_spider.proxy_spiders.Ip3366Spider',
-    'core.proxy_spider.proxy_spiders.KuaiSpider',
+    'core.proxy_spider.proxy_spiders.XilaSpider',
+    # 'core.proxy_spider.proxy_spiders.KuaiSpider',
     # 'core.proxy_spider.proxy_spiders.ProxylistplusSpider',
     # 'core.proxy_spider.proxy_spiders.XiciSpider'
 ]

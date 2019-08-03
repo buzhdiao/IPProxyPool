@@ -6,6 +6,8 @@ import re
 import js2py
 import requests
 from utils.http import get_request_headers
+from domain import Proxy
+from lxml import etree
 
 """
 实现西刺代理爬虫，http://www.xicidaili.com
@@ -44,7 +46,7 @@ class XiciSpider(BaseSpider):
 
 class Ip3366Spider(BaseSpider):
     # 准备URL列表
-    urls = ['http://www.ip3366.net/free/?stype=1&page={}'.format(i) for i in range(1,8)]
+    urls = ['http://www.ip3366.net/free/?stype={}&page={}'.format(j,i) for j in range(1,5) for i in range(1,8)]
 
     # 分组xpath，用于获取包含代理Ip信息的标签列表
     group_xpath = '//*[@id="list"]/table/tbody/tr'
@@ -62,7 +64,6 @@ class Ip3366Spider(BaseSpider):
 提供urls,group-xpath和detail_xpath
 """
 
-
 class KuaiSpider(BaseSpider):
     # 准备URL列表
     urls = ['http://www.kuaidaili.com/free/{}/{}/'.format(types,i) for types in ['inha','intr'] for i in range(1, 30)]
@@ -76,6 +77,38 @@ class KuaiSpider(BaseSpider):
         'area': 'td[5]/text()'
     }
 
+'''
+89ip代理
+http://www.89ip.cn/index_14.html
+'''
+
+
+class XilaSpider(BaseSpider):
+    # 准备URL列表
+    urls = ['http://www.xiladaili.com/{}/{}/'.format(types,i) for types in ['gaoni','putong','https','http'] for i in range(1, 10)]
+
+    # 分组xpath，用于获取包含代理Ip信息的标签列表
+    group_xpath = '/html/body/div/div[3]/div[2]/table/tbody/tr'
+    # 组内的XPath,用于提取ip,port,area
+    detail_xpath = {
+        'ip': 'td[1]/text()',
+        'port': 'td[2]/text()',
+        'area': 'td[4]/text()'
+    }
+
+    def get_proxies_from_page(self,page):
+        '''解析页面，提取数据，封装为Proxy对象'''
+        element = etree.HTML(page)
+    #     获取包含代理IP信息的标签列表
+        trs = element.xpath(self.group_xpath)
+    #     遍历trs,获取代理Ip相关信息
+        for tr in trs:
+            tmp_ip_port = self.get_first_from_list(tr.xpath(self.detail_xpath['ip'])).split(':')
+            ip = tmp_ip_port[0]
+            port = tmp_ip_port[1]
+            area = self.get_first_from_list(tr.xpath(self.detail_xpath['area']))
+            proxy = Proxy(ip,port,area=area)
+            yield proxy
 
 """
 实现Proxylistplus代理爬虫，http:/list.proxylistplus.com/Fresh-Http-Proxy-List-{}

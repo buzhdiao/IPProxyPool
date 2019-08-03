@@ -11,14 +11,15 @@ http://www.ip3366.net/free/?stype=1&page=1
 快代理
 inha 国内高匿代理 intr 国内普通代理
 
+西拉代理
 http://www.xiladaili.com/https/
 http://www.xiladaili.com/putong/
 http://www.xiladaili.com/gaoni/
 http://www.xiladaili.com/http/
-西拉代理
 
-http://www.89ip.cn/index_4.html
 89代理
+http://www.89ip.cn/index_4.html
+
 
 http://www.nimadaili.com/
 http://www.nimadaili.com/putong/

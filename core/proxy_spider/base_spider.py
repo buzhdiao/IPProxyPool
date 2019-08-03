@@ -51,6 +51,7 @@ class BaseSpider(object):
 #        charset_ = response.encoding
             print(response.status_code)
             logger.info("爬取{}网页时出现{}错误".format(url,response.status_code))
+        logger.info("爬取{}网页成功。".format(url))
         return response.content
 
     def get_first_from_list(self,lis):
